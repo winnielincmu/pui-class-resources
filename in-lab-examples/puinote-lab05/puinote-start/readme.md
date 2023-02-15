@@ -177,7 +177,7 @@ function createElement(notecard) {
 
 If you look in the console, you should see the newly created HTML nodes. Now that the nodes have been created, we need to add them to the page!
 
-22. In our `createElement` function, we first grab a reference to `.notecard-list`, a `<div>` that will contain all our notecards.
+22. In our `createElement` function, we first grab a reference to `#notecard-list`, a `<div>` that will contain all our notecards.
 ```
 function createElement(notecard) {
   const template = document.querySelector('#notecard-template');
